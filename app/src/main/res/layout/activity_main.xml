@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_gray"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btCalendario"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/purple_700"
+        android:padding="15dp"
+        android:text="Calendario"
+        android:textColor="@color/dark_gray"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationX="171dp"
+        android:translationY="108dp" />
+
+    <Button
+        android:id="@+id/btCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/purple_700"
+        android:padding="15dp"
+        android:text="Cadastrar"
+        android:textColor="@color/dark_gray"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewContatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:translationX="-1dp"
+        android:translationY="-400dp"
+        app:srcCompat="@drawable/images" />
+
+</LinearLayout>
